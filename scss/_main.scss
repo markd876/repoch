@@ -1,0 +1,18 @@
+@import "nav";
+@import "colores";
+@import "home";
+@import "footer";
+@import "albums";
+@import "galeria";
+@import "contacto";
+@import "iconos";
+@import "tienda";
+@import "mediaqueries";
+
+main{
+    background-color: $colorFondo;
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    min-height: 810px;
+}
+

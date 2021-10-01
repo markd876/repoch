@@ -1,0 +1,31 @@
+@import "colores";
+main{
+    background-color: $colorMain;
+    font-family: 'Roboto', sans-serif;
+}
+.main__titulo{
+    text-align: left;
+    color: $colorTitulo;
+    font-weight: 900;
+}
+.main__parrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__parrafo__derecha{
+    width: 50%;
+    display: inline-block;
+    color: $colorLetras;
+}
+.main__parrafo_izquierda{
+    @extend .main__parrafo__derecha;
+}
+.main__imagen_izquierda{
+    width: 30%;
+    display: inline-block;
+    margin: 55px 250px 50px 50px;
+}
+.main__imagen_derecha{
+    @extend .main__imagen_izquierda;
+}
