@@ -14,6 +14,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="./imgs/295959.svg">
 </head>
 <body>
     <script>
@@ -23,10 +24,6 @@
         <a href="index.html" class="header__logo"><img src="imgs/logo.png" alt="logo"></a>
         <nav> 
                 <ul>
-                    <li><a href="index.html" class="nav">Home</a></li>
-                    <li><a href="pages\albums.html" class="nav">Albums</a></li>
-                    <li><a href="pages\galeria.html" class="nav">Galeria</a></li>
-                    <li><a href="pages\tienda.html" class="nav">Tienda</a></li>
                     <li><a href="pages\contacto.html" class="nav">Contacto</a></li>
                 </ul>
         </nav> <!-- Fin Navbar-->
@@ -34,27 +31,13 @@
         <a href="https://twitter.com/sodastereo" class="header__iconos"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewbox="0 0 24 24" width="24px" height="24px" class="twitter">    <path d="M17,3H7C4.791,3,3,4.791,3,7v10c0,2.209,1.791,4,4,4h10c2.209,0,4-1.791,4-4V7C21,4.791,19.209,3,17,3z M17.05,9.514 c0,0.086,0,0.171,0,0.343c0,3.257-2.486,7.029-7.029,7.029c-1.371,0-2.657-0.429-3.771-1.114c0.171,0,0.429,0,0.6,0 c1.114,0,2.229-0.429,3.086-1.029c-1.114,0-1.971-0.771-2.314-1.714c0.171,0,0.343,0.086,0.429,0.086c0.257,0,0.429,0,0.686-0.086 c-1.114-0.257-1.971-1.2-1.971-2.4c0.343,0.171,0.686,0.257,1.114,0.343c-0.686-0.6-1.114-1.286-1.114-2.143 c0-0.429,0.086-0.857,0.343-1.2c1.2,1.457,3,2.486,5.057,2.571c0-0.171-0.086-0.343-0.086-0.6c0-1.371,1.114-2.486,2.486-2.486 c0.686,0,1.371,0.257,1.8,0.771c0.6-0.086,1.114-0.343,1.543-0.6c-0.171,0.6-0.6,1.029-1.114,1.371 c0.514-0.086,0.943-0.171,1.457-0.429C17.907,8.743,17.479,9.171,17.05,9.514z"/></svg></a>
     </header>
     <main> <!-- Inicio Timeline -->
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="imgs/galeria/soda-stereo-gira-me-veras-volver-1000x600.jpg" class="d-block w-100" alt="..." height="850px">
-              </div>
-              <div class="carousel-item">
-                <img src="imgs/galeria/soda_stereo.jpg" class="d-block w-100" alt="..." height="850px">
-              </div>
-              <div class="carousel-item">
-                <img src="imgs/galeria/Soda-Stereo.jpg" class="d-block w-100" alt="..." height="850px">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+        <div class="inicio">
+            <a href="#timeline" class="nav"><span>Timeline</span></a>
+            <a href="pages\albums.html" class="nav"><span>Albums</span></a>
+            <a href="pages\galeria.html" class="nav"><span>Galeria</span></a>
+            <a href="pages\tienda.html" class="nav"><span>Tienda</span></a>
+        </div>
+        <div id="timeline">
             <!-- <hr color="black"> -->
             <div class="container-fluid" data-aos="fade-up"> <!-- Primer Parrafo -->
                 <div class="main__parrafo">
@@ -114,6 +97,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </main> <!-- Fin Timeline -->
     <footer>
         <div class="footer">

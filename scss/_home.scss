@@ -1,7 +1,30 @@
 @import "colores";
 main{
     background-color: $colorMain;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica Now Text';
+}
+.inicio{
+    padding-top: 80px;
+    width: 100%;
+    height: 800px;
+    a{
+        color: $colorLetras;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 100px;
+        font-style: italic;
+        margin-top: 10px;
+        span:hover{
+            color: $colorTitulo;
+        }
+    }
+    
+}
+#timeline{
+    margin-top: 100px;
 }
 .main__titulo{
     text-align: left;
@@ -28,4 +51,5 @@ main{
 }
 .main__imagen_derecha{
     @extend .main__imagen_izquierda;
+    margin: 55px 25px 50px 180px;
 }

@@ -8,11 +8,15 @@
 @import "iconos";
 @import "tienda";
 @import "mediaqueries";
+@import "fonts";
 
 main{
     background-color: $colorFondo;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica Now Text';
     height: auto;
     min-height: 810px;
 }
 
+*{
+    scroll-behavior: smooth;
+}

@@ -7,7 +7,7 @@
 }
 
 header{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica Now Text';
     flex-wrap: nowrap;
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,6 @@ nav {
             color: $colorLetras;
             border: 2px solid white;
             border-radius: 5px;
-            background-color: rgb(47, 53, 66);
             transition: 0.5s;
         }
     }
