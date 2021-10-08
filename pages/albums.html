@@ -15,6 +15,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" href="../imgs/295959.svg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
     <script>
@@ -498,7 +499,15 @@
                     </article>
                 </div>
             </div>
-        </div>    
+        </div>
+        <div class="loader-wrapper">
+            <img src="../imgs/loading_image.png" alt="" width="250" height="150">
+        </div>
+        <script>
+            $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+            });
+        </script>    
     </main>
     <footer>
         <div class="footer">

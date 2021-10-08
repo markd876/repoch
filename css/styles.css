@@ -440,6 +440,21 @@ footer {
   font-weight: 500;
   font-style: normal; }
 
+.img404 {
+  padding-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column; }
+  .img404 img {
+    margin-bottom: 25px; }
+  .img404 p {
+    color: #eaeaea;
+    font-size: 20px; }
+  .img404 iframe {
+    margin-bottom: 25px; }
+
 main {
   background-color: #457b9d;
   font-family: 'Helvetica Now Text';
@@ -448,3 +463,14 @@ main {
 
 * {
   scroll-behavior: smooth; }
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #457b9d;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
