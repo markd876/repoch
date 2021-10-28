@@ -31,3 +31,9 @@
     flex-direction: column;
     color: $colorLetras;
 }
+.item__desc__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
