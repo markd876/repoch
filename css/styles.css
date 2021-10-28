@@ -228,11 +228,12 @@ footer {
 .form {
   padding-top: 100px;
   display: flex;
-  width: 500px;
+  width: 100%;
   margin: auto;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  flex-direction: column; }
 
 .form__titulos {
   color: #eaeaea;
@@ -365,7 +366,9 @@ footer {
     nav ul li a {
       align-items: center;
       justify-content: center;
-      text-align: center; } }
+      text-align: center; }
+  .container__item {
+    height: 300px; } }
 
 @font-face {
   font-family: 'Helvetica Now Text';
